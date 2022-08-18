@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        body{
+            border: 2px solid red;
+        }
         .btn-paytm:hover > img{
             filter: invert(0);
         }
@@ -18,7 +21,7 @@
         tailwind.config = {
           theme: {
             screens: {
-               'sm': '640px',
+               'sm': '480px',
                 'md': '768px',
                 'lg': '1024px',
                 'xl': '1280px',
@@ -85,12 +88,12 @@
     <!-- Hero Banner-1 -->
 
     <div class="hero min-h-screen ">
-        <div class="hero-content flex-col lg:flex-row-reverse">
-          <img src="Assets/hero-img.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg shadow-2xl relative left-[50px]" />
+        <div class="hero-content flex-col items-center lg:flex-row-reverse">
+          <img src="Assets/hero-img.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg  lg:relative left-[50px]" />
           <div>
             <img src="Assets/1654517453942.png" alt="Paytm UPI" class="my-[3rem] w-[90px] mx-auto lg:mx-0">
             <h1 class=" text-5xl font-bold text-center lg:text-left">India's Most-loved <br>Payments App</h1>
-            <p class="py-6 md:w-[45%] mx-auto lg:mx-0 text-center lg:text-left font-bold">Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</p>
+            <p class="py-6 w-[70%] md:w-[45%] mx-auto lg:mx-0 text-center lg:text-left font-bold">Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</p>
                 <div class="flex item-center justify-center lg:justify-start">
                 <button class="btn-paytm mx-auto lg:mx-0 btn inline-flex text-white bg-black border rounded-full py-2 px-6 hover:bg-white  hover:text-black hover:border hover:border-black hover:rounded-full">
                   Download Paytm App
@@ -250,14 +253,14 @@
 
             <div class="hero min-h-screen w-[90vw] mx-auto my-[5rem] bg-[#fff] border rounded-2xl">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                  <img src="Assets/hero-img2.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg  mr-[2rem]" />
-                  <div class="ml-[3rem]">
-                    <div class="lg:flex flex items-center justify-center lg:justify-start lg:w-[40%]">
+                  <img src="Assets/hero-img2.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg  lg:mr-[2rem]" />
+                  <div class="lg:ml-[3rem]">
+                    <div class="lg:flex flex items-center justify-center gap-[0.5rem] lg:gap-[1rem] lg:justify-start lg:w-[40%]">
                     <img src="Assets/paytm-wallet.png" alt="Paytm Wallet" class="my-[3rem] w-[90px] lg:mx-0">
                     <h2 class="text-black font-bold">Paytm <br>Wallet</h2>
                 </div>
-                    <h1 class=" text-5xl font-bold text-center lg:text-left">The Fastest Way to <br>Pay In-store &amp Online.</h1>
-                    <p class="py-6 md:w-[70%] mx-auto lg:mx-0 text-center lg:text-left font-bold">Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.</p>
+                    <h1 class=" text-2xl lg:text-5xl font-bold text-black text-center lg:text-left">The Fastest Way to <br>Pay In-store &amp Online.</h1>
+                    <p class="py-6 w-[60%] md:w-[70%] mx-auto lg:mx-0 text-center lg:text-left font-bold">Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.</p>
                         <div class="flex item-center justify-center lg:justify-start">
                         <button class="btn-paytm mx-auto lg:mx-0 btn inline-flex text-white bg-black border rounded-full py-2 px-6 hover:bg-white  hover:text-black hover:border hover:border-black hover:rounded-full">
                           Download Paytm App
@@ -270,10 +273,10 @@
               </div>
 
               <div class="hero min-h-screen w-[90vw] mx-auto mt-[5rem] mb-[5rem] bg-[#fff] border rounded-2xl">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                  <img src="Assets/hero-img3.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg mr-[2rem]" />
-                  <div class="ml-[3rem]">
-                    <div class="lg:flex flex items-center justify-center lg:justify-start lg:w-[40%]">
+                <div class="hero-content flex-col items-center lg:flex-row-reverse">
+                  <img src="Assets/hero-img3.webp" class="md:max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg mr-[2rem]" />
+                  <div class="lg:ml-[3rem]">
+                    <div class="lg:flex flex items-center gap-[0.5rem] justify-center lg:justify-start lg:w-[40%]">
                     <img src="Assets/UPI-transfer-logo.png" alt="UPI" class="my-[3rem] w-[90px] lg:mx-0">
                     <h2 class="text-black font-bold lg:ml-[0.5rem]">UPI Money <br>Transfer</h2>
                 </div>
@@ -291,9 +294,9 @@
               </div>
 
               <div class="hero min-h-screen w-[90vw] mx-auto mt-[5rem] mb-[5rem] bg-[#fff] border rounded-2xl">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                  <img src="Assets/hero-img4.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg mr-[2rem]" />
-                  <div class="ml-[3rem]">
+                <div class="hero-content flex-col items-center lg:flex-row-reverse">
+                  <img src="Assets/hero-img4.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg mr-[2rem]" />
+                  <div class="lg:ml-[3rem]">
                     <img src="Assets/paytm-postpaid.webp" alt="Paytm Postpaid" class="my-[3rem] w-[190px] mx-auto lg:mx-0">
                     <h1 class=" text-5xl font-bold text-center lg:text-left">Want it? <br>No more waiting for it.</h1>
                     <p class="py-6 md:w-[75%] mx-auto lg:mx-0 text-center lg:text-left font-bold">With Paytm Postpaid, your wishlist doesn't have to be on the waitlist. Shop for the things you want today and pay for them next month.</p>
@@ -333,9 +336,9 @@
       
       <div class="hero min-h-screen mt-[2rem] ">
         <div class="hero-content flex-col lg:flex-row-reverse my-auto">
-          <img src="Assets/hero-img5.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg " />
-          <div class="ml-[3rem]">
-            <h1 class="text-black font-bold text-[3rem]">Financial Services by Paytm</h1>
+          <img src="Assets/hero-img5.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg " />
+          <div class="lg:ml-[3rem]">
+            <h1 class="text-black font-bold text-center lg:text-left text-[3rem]">Financial Services by Paytm</h1>
             <img src="Assets/paytm_payments_bank.png" alt="Paytm Postpaid" class="my-[3rem] w-[190px] mx-auto lg:mx-0">
             <h1 class=" text-5xl font-bold text-center lg:text-left text-black">India's most sincere <br>bank.</h1>
             <p class="py-6 md:w-[67%] mx-auto lg:mx-0 text-center lg:text-left font-bold text-black text-[1.25rem]">Paytm Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant account opening, virtual debit card and zero balance requirements, experience the future of banking today.</p>
@@ -352,9 +355,9 @@
       <!-- Section-5 Starts Here -->
 
       <div class="hero min-h-screen  mt-[5rem] mb-[5rem] bg-[#edf0f6] border rounded-2xl">
-        <div class="hero-content flex-col lg:flex-row">
-          <img src="Assets/paytm-money-banner.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg mr-[2rem] my-auto" />
-          <div class="ml-[3rem]">
+        <div class="hero-content flex-col items-center lg:flex-row">
+          <img src="Assets/paytm-money-banner.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg mr-[2rem] my-auto" />
+          <div class="lg:ml-[3rem]">
             <img src="Assets/paytm-money.webp" alt="Paytm Money" class="my-[3rem] w-[190px] mx-auto lg:mx-0">
             <h1 class=" text-5xl text-black font-bold text-center lg:text-left">Build Long-term <br>Wealth &amp; Achieve <br>your Goals.</h1>
             <p class="py-6 text-black text-[1.25rem] md:w-[77%] mx-auto lg:mx-0 text-center lg:text-left font-bold">Investing on Paytm Money is transparent, low-cost and commission-free. Buy stocks & mutual funds that can help you create wealth & realise your dreams.</p>
@@ -371,9 +374,9 @@
       <!-- Section-6 Starts Here -->
 
       <div class="hero min-h-screen mt-[2rem] ">
-        <div class="hero-content flex-col lg:flex-row-reverse my-auto">
-          <img src="Assets/hero-img6.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg " />
-          <div class="ml-[3rem]">
+        <div class="hero-content flex-col items-center lg:flex-row-reverse my-auto">
+          <img src="Assets/hero-img6.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg " />
+          <div class="lg:ml-[3rem]">
             <img src="Assets/paytm-insurance.png" alt="Paytm Insurance" class="my-[3rem] w-[190px] mx-auto lg:mx-0">
             <h1 class=" text-5xl font-bold text-black text-center lg:text-left text-black">Insurance made easy..</h1>
             <p class="py-6 md:w-[80%] mx-auto lg:mx-0 text-center lg:text-left font-bold text-black text-[1.25rem]">Buying insurance does not have to be tedious, time-consuming & confusing. Paytm Insurance removes the worry of getting insured by making it simple, convenient & easy-to-understand.</p>
@@ -391,9 +394,9 @@
       <!-- Section-7 Starts Here -->
 
       <div class="hero min-h-screen  mt-[5rem] mb-[5rem] bg-[#f5f7fa] border rounded-2xl">
-        <div class="hero-content flex-col lg:flex-row">
-          <img src="Assets/hero-img7.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg mr-[2rem] my-auto" />
-          <div class="ml-[3rem]">
+        <div class="hero-content flex-col items-center lg:flex-row">
+          <img src="Assets/hero-img7.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg mr-[2rem] my-auto" />
+          <div class="lg:ml-[3rem]">
             <img src="Assets/personal-loan.png" alt="Personal Loan" class="my-[3rem] w-[190px] mx-auto lg:mx-0">
             <h1 class=" text-5xl text-black font-bold text-center lg:text-left">Get a Personal Loan in <br>2 Minutes.</h1>
             <p class="py-6 text-black text-[1.25rem] md:w-[100%] mx-auto lg:mx-0 text-center lg:text-left font-bold">Paytm offers India's quickest multi-purpose, hassle-free loan. It is 100% digital, transparent and paperless.</p>
@@ -414,9 +417,9 @@
         <h1 class="text-black font-bold text-[3rem] m-auto relative top-[3rem]  text-center lg:text-left lg:ml-[3.5rem]">Business Services by Paytm</h1>
 
         <div class="hero min-h-screen w-[90vw] mx-auto my-[5rem] bg-[#f5f7fa] border rounded-2xl">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-              <img src="Assets/payments-banner.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg " />
-              <div class="ml-[3rem]">
+            <div class="hero-content flex-col items-center lg:flex-row-reverse">
+              <img src="Assets/payments-banner.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg " />
+              <div class="lg:ml-[3rem]">
                 <h1 class=" text-5xl font-bold text-black text-center lg:text-left">Accept payments <br> online with ease</h1>
                 <p class="py-6 md:w-[75%] mx-auto lg:mx-0 text-center lg:text-left text-black font-bold">Grow your business with the payment gateway that powers India’s largest brands and even the Paytm App</p>
                     <div class="flex item-center justify-center lg:justify-start">
@@ -429,9 +432,9 @@
           </div>
 
           <div class="hero min-h-screen w-[90vw] mx-auto my-[5rem] bg-[#f5f7fa] border rounded-2xl">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-              <img src="Assets/payments-banner2.webp" class="max-w-sm lg:max-w-[35rem] rounded-lg " />
-              <div class="ml-[3rem]">
+            <div class="hero-content flex-col items-center lg:flex-row-reverse">
+              <img src="Assets/payments-banner2.webp" class="max-w-sm w-[90%] lg:max-w-[35rem] rounded-lg " />
+              <div class="lg:ml-[3rem]">
                 <h1 class=" text-5xl font-bold text-black text-center lg:text-left">In-shop payments <br>powered by Paytm.</h1>
                 <p class="py-6 md:w-[75%] mx-auto lg:mx-0 text-center lg:text-left text-black font-bold">Millions of small & big businesses use Paytm to accept payments anywhere any time with a wide range of solutions for all kind of merchants</p>
                     <div class="flex item-center justify-center lg:justify-start">
