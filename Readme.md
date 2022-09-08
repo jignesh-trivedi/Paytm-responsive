@@ -1,7 +1,7 @@
 # Paytm Clone 
 
 ![Made With](https://img.shields.io/badge/MADE%20WITH-HTML%20%26%20Tailwind%20CSS-blue)
-![Time Taken](https://img.shields.io/badge/TIME%20TAKEN-15H%3A00M%3A00S-orange)
+![Time Taken](https://img.shields.io/badge/TIME%20TAKEN-25H%3A00M%3A00S-orange)
 [![SEE PROJECT](https://img.shields.io/badge/SEE%20POJECT-VISIT-green)](https://paytm-website-mobile-responsive.netlify.app/)
 
 
